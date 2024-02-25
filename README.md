@@ -14,7 +14,7 @@ In the terminal type the following command to see the version of brew (homebrew)
 ```
 brew --version
 ```
-If the version is returned, like below, then brew is installed. [Go to Step 2.](#update-brew) 
+If the version is returned, like below, then brew is installed. [Go to Step 2.](#step-2:-update-brew) 
 ```txt
 Homebrew 4.2.9
 ```
