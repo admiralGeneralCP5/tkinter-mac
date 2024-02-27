@@ -40,6 +40,8 @@ brew install python-tk
 ```
 After brew finishes installing python-tk, Tkinter should work. 
 
+"test_file.py" is a simple program to convert a value in inches into meters and can be used to find out if Tkinter is functioning.
+
 ---
 <br>
 
@@ -48,7 +50,7 @@ After brew finishes installing python-tk, Tkinter should work.
 ## Working with graphics.py
 There are two ways to access the graphics module, through pip or manually creating the file.
 
-Using pip is a much easier way to install and use python modules and is the recommended option. Manually creating the file requires you to  keep a copy of the file in each directory of every program that accesses the graphics.py module. This will work with MacOS and Windows, but just use pip instead of pip3 for Windows. 
+Using pip is a much easier way to install and use python modules and is the recommended option. Manually creating the file requires you to keep a copy of the file in each directory, of every program, that accesses the graphics.py module. This will work with MacOS and Windows, but just use pip instead of pip3 for Windows. 
 
 
 ### Using pip:
