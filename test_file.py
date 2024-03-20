@@ -19,11 +19,8 @@ inches_tk = tk.IntVar()
 input_field = tk.Entry(root, textvariable= inches_tk)
 input_field.grid(row= 0, column=1)
 
+
 # Convert Button Function
-meters_tk = tk.StringVar()
-meters = ''
-
-
 def convert():
     try:  # tries this code and goes to except if there is an error
         inches = inches_tk.get()
