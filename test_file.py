@@ -1,5 +1,8 @@
 import tkinter as tk
+from tkinter import ttk
 from tkinter import messagebox
+
+# using ttk gives the entry field and button a more modern look
 
 
 root = tk.Tk()
@@ -16,7 +19,7 @@ input_prompt.grid(column=0, row=0)
 
 # Input Field
 inches_tk = tk.IntVar()
-input_field = tk.Entry(root, textvariable= inches_tk)
+input_field = ttk.Entry(root, textvariable= inches_tk)
 input_field.grid(row= 0, column=1)
 
 
@@ -34,7 +37,7 @@ def convert():
 
 
 # Convert Button
-convert_btn = tk.Button(root, text="Convert", command=lambda:convert())
+convert_btn = ttk.Button(root, text="Convert", command=lambda:convert())
 convert_btn.grid(row=0, column=2)
 
 # Result Label
