@@ -57,4 +57,6 @@ Using pip is a much easier way to install and use python modules and is the reco
 ```
 pip3 install graphics.py
 ```
-Now graphics.py can be imported into your program. A separate graphics.py file in the same direcory as your main file is not necessary. 
+Now graphics.py can be imported into your program. A separate graphics.py file in the same direcory as your main file is not necessary.
+
+"test_file_graphics.py" can be used to find out if graphics.py and Tkinter are functioning.
